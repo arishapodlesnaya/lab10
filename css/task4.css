@@ -1,0 +1,14 @@
+* {
+    border: solid 2px black
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+aside {
+    width: 20vh;
+}
+main {
+    flex: 1;
+}

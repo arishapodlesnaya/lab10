@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 255, 121);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border: solid 2px black;
+}
+.form-text {
+    height: 50px;
+    width: 40vw;
+    border: none;
+    border-radius: 0px;
+}
+
+.form-icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(191, 255, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-icon img {height: 40px;}
